@@ -11,3 +11,92 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App{
+  border:1px solid black;
+  position:relative;
+  width:500px;
+  margin:auto;
+  top:40px;
+}
+.btn-circle.btn-xl {
+  width: 50px;
+  height: 50px;
+  padding: 13px 18px;
+  border-radius: 60px;
+  font-size: 15px;
+  text-align: center;
+  
+}
+.form{
+  /* border:1px solid black; */
+  width:400px;
+  display:flex;
+  flex-direction: column;
+  margin:auto;
+}
+.circle{
+  display:flex;
+  position:sticky;
+  justify-content: space-around;
+}
+.inputgroup{
+  display:flex;
+  flex-direction: column;
+}
+.card1,.card2,.card3,.card4{
+  border:1px solid black;
+  width:200px;
+  margin:10px;
+}
+.card12{
+  display:flex;
+  justify-content: space-between;
+}
+.card34{
+display: flex;
+justify-content: space-between;
+}
+.cards{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.gonext{
+  display:flex;
+  justify-content: space-between;
+}
+.board1,.board2,.board3,.board4{
+  border:1px solid black;
+  width:200px;
+  margin:10px;
+  display:flex;
+}
+.board12{
+  display:flex;
+  justify-content: space-between;
+}
+.board34{
+display: flex;
+justify-content: space-between;
+}
+.boards{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.data1,.data2,.data3,.data4,.data5,.data6{
+  display:flex;
+  flex-direction: column;
+  border:1px solid black;
+  width:500px;
+  margin:10px;
+}
+.data123{
+  display:flex;
+  /* border:1px solid black; */
+  margin:10px;
+}
+.data456{
+  display:flex;
+  /* border: 1px solid black; */
+}
